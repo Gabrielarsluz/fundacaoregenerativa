@@ -8,15 +8,15 @@ import { Users, Vote, Shield, CheckCircle, XCircle, Clock } from "lucide-react";
 const Governanca = () => {
   const propostas = [
     {
-      titulo: "Expansão do Lote Serra Verde",
-      descricao: "Proposta para adicionar 15 hectares adjacentes ao lote atual",
+      titulo: "Participação no Mercado de Carbono",
+      descricao: "Proposta para viabilidade econômica decorrente da redução de carbono da regeneração das terras",
       status: "Votação em andamento",
       votosA: 234,
       votosContra: 89,
       encerramento: "15/12/2024",
     },
     {
-      titulo: "Novo Projeto em Alagoas",
+      titulo: "Venda ou doação da terra (ou frações) a pequenos agricultores com formação em agroecologia",
       descricao: "Iniciar regeneração de área de 40 hectares no sertão alagoano",
       status: "Aprovada",
       votosA: 456,
@@ -24,7 +24,7 @@ const Governanca = () => {
       encerramento: "28/11/2024",
     },
     {
-      titulo: "Alteração no Protocolo de Monitoramento",
+      titulo: "Criação de Unidade de Conservaçã (RPPN)",
       descricao: "Aumentar frequência de visitas técnicas de trimestral para mensal",
       status: "Rejeitada",
       votosA: 123,
